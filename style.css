@@ -1,0 +1,121 @@
+	@import url(https://fonts.googleapis.com/css?family=Lato);
+		@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic|Droid+Serif:400,400italic);
+
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-family: 'Lora', serif;
+	font-family: 'Droid Serif', serif;
+	color: #333;
+	font-size: 18px;
+	background: #333;
+}
+.container {
+	background: #F2F2F2;
+	max-width: 900px;
+	padding: 80px;
+	padding-top: 10px;
+	margin-top: 40px;
+	border-radius: 2px;
+}
+
+ul,ol,li {
+	list-style: none;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.mtb-10 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.mtb-20 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.mtb-30 {
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+.mtb-60 {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+
+/* Font Style */
+.fs-16 {
+	font-size: 16px !important;
+}
+
+.fs-20 {
+	font-size: 20px !important;
+}
+.fs-24 {
+	font-size: 24px !important;
+}
+
+.underline {
+	text-decoration: underline !important;
+}
+.italic {
+	font-variant: italic;
+}
+/*  Display Style */
+
+.block {
+	display: block;
+}
+
+.center-block {
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul.li-inline > li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+header {
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+
+hr.ah {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 1px solid #5F4586;
+    border-top: 1px solid #333;
+}
+
+.centerBlock {
+	margin: auto;
+}
+a {
+	color: #1a0dab;
+}
+	
+
+.brand-color {
+	color: #5F4586 !important;
+}
+.contact-link li > a{
+	color: #333;
+}
+.cv {
+	position: relative;
+	top: -20px;
+	z-index: 99;
+	font-size: 16px;
+	color: #5F4586;
+}
+.summary {
+	line-height: 1.5em;
+	font-size: 20px;
+	border-bottom: 1px solid #333;
+	display: inline-block;
+
+}

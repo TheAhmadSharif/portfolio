@@ -9,16 +9,20 @@ body {
 	color: #333;
 	font-size: 18px;
 	background: #333;
+	background: #5F4586;
 }
 .container {
-	background: #F2F2F2;
-	max-width: 900px;
-	padding: 80px;
-	padding-top: 10px;
-	margin-top: 40px;
-	border-radius: 2px;
+    background: #FFFFFF;
+    max-width: 860px;
+    padding: 120px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 2px;
+    box-shadow: 0 4px 10px #333;
+    position: relative;
+    z-index: 101;
 }
-
 ul,ol,li {
 	list-style: none;
 	display: block;
@@ -41,8 +45,12 @@ ul,ol,li {
 	margin-top: 60px;
 	margin-bottom: 60px;
 }
-
-
+.mr-5 {
+	margin-right: 5px !important;
+}
+.mr-10 {
+	margin-right: 10px !important;
+}
 /* Font Style */
 .fs-16 {
 	font-size: 16px !important;
@@ -59,7 +67,11 @@ ul,ol,li {
 	text-decoration: underline !important;
 }
 .italic {
-	font-variant: italic;
+	font-style: italic;
+}
+
+.bold {
+	font-weight: bold !important;
 }
 /*  Display Style */
 
@@ -67,6 +79,9 @@ ul,ol,li {
 	display: block;
 }
 
+.fl {
+	float: left !important;
+}
 .center-block {
 	display: table;
 	margin-left: auto;
@@ -95,7 +110,8 @@ hr.ah {
 	margin: auto;
 }
 a {
-	color: #1a0dab;
+	color: #5F4586;
+	text-decoration: underline;
 }
 	
 
@@ -104,6 +120,7 @@ a {
 }
 .contact-link li > a{
 	color: #333;
+	text-decoration: none;
 }
 .cv {
 	position: relative;
@@ -112,10 +129,30 @@ a {
 	font-size: 16px;
 	color: #5F4586;
 }
-.summary {
+.heading {
 	line-height: 1.5em;
 	font-size: 20px;
 	border-bottom: 1px solid #333;
 	display: inline-block;
 
+}
+ul.skill > li {
+	min-height: 80px;
+}
+
+ul.skill > li > span {
+	width: 160px;
+	height: 60px;
+	float: left;
+	clear: both;
+}
+
+.coffee {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+.coffee img {
+	width: 90px;
 }
